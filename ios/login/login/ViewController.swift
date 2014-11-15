@@ -9,7 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    @IBOutlet weak var spinnerView: UIActivityIndicatorView!
+    
+   
+    
+    @IBAction func login(sender: AnyObject) {
+        
+        spinnerView.startAnimating()
+    }
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

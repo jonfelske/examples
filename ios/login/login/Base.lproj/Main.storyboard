@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="login" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-db-Xe4">
+                                <rect key="frame" x="229" y="285" width="143" height="30"/>
+                                <state key="normal" title="Login with Facebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8xl-SJ-FCh"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="33S-Hc-qCI">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vs5-db-Xe4" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="3vW-Q5-Ibw"/>
+                            <constraint firstItem="Vs5-db-Xe4" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="DeM-6v-zcU"/>
+                            <constraint firstItem="Vs5-db-Xe4" firstAttribute="centerX" secondItem="33S-Hc-qCI" secondAttribute="centerX" id="NAG-lU-Ee3"/>
+                            <constraint firstItem="33S-Hc-qCI" firstAttribute="top" secondItem="Vs5-db-Xe4" secondAttribute="bottom" constant="24" id="Nc0-az-09K"/>
+                            <constraint firstItem="Vs5-db-Xe4" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="TJL-9i-Vmr"/>
+                            <constraint firstItem="Vs5-db-Xe4" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="m5F-X1-a9p"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="33S-Hc-qCI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="NAG-lU-Ee3"/>
+                                <exclude reference="TJL-9i-Vmr"/>
+                                <exclude reference="m5F-X1-a9p"/>
+                                <exclude reference="Nc0-az-09K"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="33S-Hc-qCI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3vW-Q5-Ibw"/>
+                                <exclude reference="DeM-6v-zcU"/>
+                                <include reference="NAG-lU-Ee3"/>
+                                <include reference="TJL-9i-Vmr"/>
+                                <include reference="m5F-X1-a9p"/>
+                                <include reference="Nc0-az-09K"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="spinnerView" destination="33S-Hc-qCI" id="4lo-Cw-QaB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="282"/>
+        </scene>
+    </scenes>
+</document>

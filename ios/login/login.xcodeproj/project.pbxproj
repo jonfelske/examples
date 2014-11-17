@@ -27,6 +27,7 @@
 		F86504251A183A6300995789 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86504211A183A6300995789 /* Parse.framework */; };
 		F86504261A183A6300995789 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86504221A183A6300995789 /* ParseFacebookUtils.framework */; };
 		F86504271A183A6300995789 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86504231A183A6300995789 /* ParseUI.framework */; };
+		F88DA30D1A1982BF00EC985A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88DA30C1A1982BF00EC985A /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F86504211A183A6300995789 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		F86504221A183A6300995789 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		F86504231A183A6300995789 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		F88DA30C1A1982BF00EC985A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F865040B1A18377200995789 /* CoreGraphics.framework in Frameworks */,
 				F86504241A183A6300995789 /* Bolts.framework in Frameworks */,
 				F86504091A18376700995789 /* CFNetwork.framework in Frameworks */,
+				F88DA30D1A1982BF00EC985A /* FacebookSDK.framework in Frameworks */,
 				F86504251A183A6300995789 /* Parse.framework in Frameworks */,
 				F86504071A18375E00995789 /* AudioToolbox.framework in Frameworks */,
 				F86504261A183A6300995789 /* ParseFacebookUtils.framework in Frameworks */,
@@ -105,6 +108,7 @@
 				F86503E31A17142700995789 /* login */,
 				F86503F91A17142700995789 /* loginTests */,
 				F86503E21A17142700995789 /* Products */,
+				F88DA30C1A1982BF00EC985A /* FacebookSDK.framework */,
 				F86504181A1837B400995789 /* SystemConfiguration.framework */,
 				F86504161A1837AB00995789 /* StoreKit.framework */,
 				F86504141A1837A200995789 /* Security.framework */,

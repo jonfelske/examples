@@ -81,6 +81,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fMs-Je-vtZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1zp-rw-Mxo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HLz-cC-3wc">
@@ -132,6 +133,7 @@
                         <viewControllerLayoutGuide type="bottom" id="NOq-Q5-cL1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aTz-eM-lax">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxg-wk-smg">
